@@ -1,5 +1,4 @@
-# Group 6
-## Javascript & React project
+# Group 6 - Javascript & React project
 
 
 ## Node js ohje
