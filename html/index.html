@@ -7,26 +7,40 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="module" src="js/infobutton.js"></script>
     </head>
     <body>
-	    <!-- REACT kirjastot -->
         <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
         <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-	    <!-- React dependencies -->
 
         <div class="topnav">
             LASKUAPP
         </div>
 
-        <div class="infobutton">
-            <button>&#9777;</button>
+        <div class="box">
+            <a class="button" href="#popup1">GUIDE</a>
+        </div>
+        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Guide</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    Insert guide there... Skyrim <br>
+                    Checkum hash <br>
+                    Ipsum Loremus
+                    <br>
+                    <br>
+                    Näihin kuviin ja tunnelmiin, <br>
+                    täältä tähän
+                    <h2>Test table</h2>
+                    Gollum<br>
+                    Nuulo22
+                </div>
+            </div>
         </div>
 
         <div class="footer">
             <p>MADE BY GROUP 6</p>
         </div>
-        
     </body>
 </html>
