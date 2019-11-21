@@ -18,3 +18,13 @@
     left: 0;
     bottom: 0;
 }
+
+.infobutton, button {
+    font-size: 2em;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    border: none;
+    overflow: hidden;
+    display: inline-block;
+}
