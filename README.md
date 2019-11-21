@@ -10,3 +10,5 @@ https://nodejs.org/en/download/
 http-server R6JSREACT\html\ -p 1337
 
 ![Ohje](ohje.png)
+
+React Devtools https://fb.me/react-devtools
