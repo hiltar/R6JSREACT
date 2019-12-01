@@ -1,7 +1,6 @@
 .topnav {
     background-color: rgb(0, 18, 117);
     color: rgb(180, 180, 180);
-    font-size: 2.5em;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     width: 100%;  
@@ -12,7 +11,7 @@
     width: 100%;
     color: rgb(180, 180, 180);
     background-color:  rgb(0, 18, 117);
-    font-size: 2em;
+    font-size: 1rem;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     left: 0;
@@ -20,17 +19,16 @@
 }
 
 .box {
-    width: 40%;
+    width: 20%;
     margin: 0 auto;
-    background: rgb(180, 180, 180);
-    padding: 35px;
+    padding: 0.8rem;
     background-clip: padding-box;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
   }
   
   .button {
-    font-size: 1em;
+    font-size: 1rem;
     padding: 10px;
     color: rgb(0, 18, 117);
     background-color: rgb(180, 180, 180);
@@ -45,6 +43,32 @@
     color: rgb(180, 180, 180);
   }
   
+  /* popupbutton */
+  .popupbutton {
+    font-size: 1rem;
+    padding: 10px;
+    color: rgb(0, 18, 117);
+    background-color: rgb(180, 180, 180);
+    /*border: 2px solid rgb(0, 18, 117);
+    border-radius: 20px/50px;*/
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+  }
+    .popupbutton:hover {
+    background: rgb(180, 180, 180);
+    color: rgb(0, 18, 117);
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .popupbutton .actionbutton1 {
+    background-color: rgb(180, 180, 180);
+  }
+
+  /* popupbutton*/
+
   .overlay {
     position: fixed;
     top: 0;
