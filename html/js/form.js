@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Form extends /*tähän se mitä extendataan, kun se valmis*/ */ {
+class Form extends /*ehkä extendaa jotain?????*/ {
   constructor(props) {
     super(props)
 
@@ -23,7 +23,7 @@ handleChange = event => {
     })
   }
 
-  render() {
+  render() {    
     const { maksunSaaja, maksupvm, summa, maksaja } = this.state;
   
     return (
@@ -55,9 +55,4 @@ handleChange = event => {
       </form>
     );
   }
-  submitForm = () => {
-      this.props.handleSubmit(this.state)
-      this.setState(this.initialState)
-  }
-  
   export default Form;
