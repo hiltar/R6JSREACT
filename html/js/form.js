@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Form extends /*ehkä extendaa jotain?????*/ {
+class Form  {
   constructor(props) {
     super(props)
 
