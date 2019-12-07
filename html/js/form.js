@@ -1,29 +1,34 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-class Form extends /*ehkä extendaa jotain?????*/ {
+class Form extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.initialState = {
       maksunSaaja: '',
       maksupvm: '',
       summa: '',
-      maksaja: '',
-    }
+      maksaja: ''
+    };
 
     this.state = this.initialState
   }
-}
+
 
 handleChange = event => {
-    const { name, value } = event.target
+    const { name, value } = event.target;
   
     this.setState({
       [name]: value,
-    })
+    });
   }
 
-  render() {    
+onSubmitForm = () => {
+  this.props.handleSubmit(this.state)
+    this.setState(this.initialState)
+}
+
+render() {
     const { maksunSaaja, maksupvm, summa, maksaja } = this.state;
   
     return (
@@ -55,4 +60,6 @@ handleChange = event => {
       </form>
     );
   }
+}
+  
   export default Form;
